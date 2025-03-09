@@ -211,8 +211,26 @@ p{
   gap: 24px;
 }
 
-footer{
+.Contact{
   background-color: rgb(49,48,53);
   display: flex;
   justify-content: center;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 75%;
+  gap: 16px;
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.pad{
+  padding: 15px;
 }
