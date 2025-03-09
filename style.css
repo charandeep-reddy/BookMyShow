@@ -213,4 +213,6 @@ p{
 
 footer{
   background-color: rgb(49,48,53);
+  display: flex;
+  justify-content: center;
 }
