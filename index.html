@@ -12,20 +12,29 @@
         <div class="left-nav">
           <img src="images/logo.svg" alt="logo" />
           <div class="searchbar">
-            <img class="searchicon" src="images/searchicon.svg" alt="" />
-            <input type="search" placeholder="search" />
+            <img claass="searchicon" width="13" height="13" class="searchicon" src="images/searchicon.svg" alt="" />
+            <label for="search">Search for Movies, Events, Plays, Sports and Activities</label>
+            <input type="search" name="search" />
           </div>
         </div>
 
-        <div class="right-nav">
-          <div>
-            <label for="city"></label>
+        <div class="right-nav flex">
+          <div class="dropdown flex">
+
+            <div>
+              <label for="city"></label>
 
             <select name="city" id="city">
               <option value="Hyderabad">Hyderabad</option>
               <option value="Bangalore">Bangalore</option>
               <option value="Mumbai">Mumbai</option>
             </select>
+            </div>
+
+            <div>
+              <img src="images/chevron.svg" alt="">
+            </div>
+            
           </div>
 
           <button>Sign in</button>
@@ -164,7 +173,8 @@
                       width="40px"
                       height="40px"
                       src="images/noimguser.jpg.png"
-                      alt=""
+
+                      alt="noimguser"
                     />
 
                     <div class="user-name">
@@ -241,7 +251,46 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="container">
+        <div class="con-75">
+          <div class="box1">
+            <div><h4>You might also like</h4></div>
+
+            <div>
+              <span>1.4k Reviews</span>
+              <span
+                ><img
+                  style="width: 22px; height: 22px"
+                  src="images/righticon.svg"
+                  alt=""
+              /></span>
             </div>
+          </div>
+
+          <div class="mov-cards flex">
+            <div>
+              <img alt="Return of the Dragon" width="222px" height="333px" class="sc-eykeme-1 jrtRfk" src="https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/return-of-the-dragon-et00433943-1739944684.jpg" style="border-radius: 8px 8px 0px 0px; opacity: 1;" />
+            </div>
+
+            <div>
+              <img alt="Return of the Dragon" width="222px" height="333px" class="sc-eykeme-1 jrtRfk" src="https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/return-of-the-dragon-et00433943-1739944684.jpg" style="border-radius: 8px 8px 0px 0px; opacity: 1;" />
+            </div>
+
+            <div>
+              <img alt="Return of the Dragon" width="222px" height="333px" class="sc-eykeme-1 jrtRfk" src="https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/return-of-the-dragon-et00433943-1739944684.jpg" style="border-radius: 8px 8px 0px 0px; opacity: 1;" />
+            </div>
+
+            <div>
+              <img alt="Return of the Dragon" width="222px" height="333px" class="sc-eykeme-1 jrtRfk" src="https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/return-of-the-dragon-et00433943-1739944684.jpg" style="border-radius: 8px 8px 0px 0px; opacity: 1;" />
+            </div>
+            
           </div>
         </div>
       </div>
@@ -251,8 +300,8 @@
       <div class="container flex pad">
         <div class="left">
           <div><img src="images/hut.svg" alt="" /></div>
-          <div class="list-show">List your show</div>
-          <div class="list-show-text">
+          <div>List your show</div>
+          <div>
             Got a show, event, activity or a great experience? Partner with us &
             get listed on BookMyShow
           </div>
